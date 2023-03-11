@@ -4,21 +4,21 @@ module.exports = {
     es2021: true,
   },
   extends: [
-    "eslint:recommended",
-    "plugin:react/recommended",
-    "plugin:react/jsx-runtime",
-    "standard-with-typescript",
-    "eslint-config-prettier",
-    "prettier",
+    'eslint:recommended',
+    'plugin:react/recommended',
+    'plugin:react/jsx-runtime',
+    'standard-with-typescript',
+    'eslint-config-prettier',
+    'prettier',
   ],
   settings: {
     react: {
-      version: "detect",
+      version: 'detect',
     },
-    "import/resolver": {
+    'import/resolver': {
       node: {
-        paths: ["src"],
-        extensions: [".js", ".jsx", ".ts", ".tsx"],
+        paths: ['src'],
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
       },
     },
   },
@@ -27,13 +27,13 @@ module.exports = {
     ecamFeatures: {
       jsx: true,
     },
-    ecmaVersion: "latest",
-    sourceType: "module",
-    project: "./tsconfig.json",
-    parser: "@typescript-eslint/parser",
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+    project: './tsconfig.json',
+    parser: '@typescript-eslint/parser',
   },
-  plugins: ["react"],
+  plugins: ['react'],
   rules: {
-    "react/react-in-jsx-scope": "off",
+    'react/react-in-jsx-scope': 'off',
   },
 };
