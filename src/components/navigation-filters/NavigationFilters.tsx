@@ -1,7 +1,6 @@
 import ItemNavigationFilter from './ItemNavigationFilter';
 
-function NavigationFilters(): JSX.Element {
-  const menus: string[] = ['Animals', 'Art', 'Renders', 'Experimental', 'Wallpapers'];
+function NavigationFilters({ menus }: { menus: string[] }): JSX.Element {
   return (
     <div>
       <ul className="w-full h-12 bg-fourth flex justify-center items-center xs:overflow-auto">
