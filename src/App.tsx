@@ -3,7 +3,7 @@ import './styles/App.css';
 function App(): JSX.Element {
   return (
     <div>
-      <h1>Online photo exhibition</h1>
+      <h1 className="font-bold">Online photo exhibition</h1>
     </div>
   );
 }
