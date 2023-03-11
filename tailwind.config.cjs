@@ -11,6 +11,12 @@ module.exports = {
         fourth: '#D4D4CE',
       },
     },
+    screens: {
+      xs: '375px',
+      sm: '640px',
+      md: '1024px',
+      lg: '1280px',
+    },
   },
   plugins: [],
 };
